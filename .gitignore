@@ -1,0 +1,25 @@
+# Built outputs
+/build/
+/app/build/
+/out/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Local config (contains SDK path)
+local.properties
+
+# Signing keys (NEVER commit)
+/keystore/
+*.jks
+*.keystore
+
+# Logs
+*.log
